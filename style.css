@@ -1,0 +1,176 @@
+servicos/*
+Theme Name:Vendo seu projeto
+Theme URI: vendaseuprojeto.com.br
+Author: Adelmo Junior
+Description: Só um tema WordPress
+*/
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800';
+
+body{
+	font-family: 'Open Sans', sans-serif ;
+}
+
+/*MENU*/
+.navbar{
+	border: 0;
+	margin: 0;
+	margin-bottom: 0;
+	display: block;
+	background-color: transparent;
+
+}
+
+.navbar ul li a{
+	height: auto;
+	padding-top: auto;
+	padding-bottom: auto;
+	box-sizing: border-box;
+	border-top: 4px solid transparent;
+	padding: 49px 20px;
+
+
+}
+
+.navbar ul li  a:hover{
+	border-top: 4px solid #777;
+	background-color: #E7E7E7 !important;
+	margin: 0;
+	display: block;
+	color: #ff6b59 !important;
+	box-sizing: border-box !important;
+}
+
+/*.navbar-nav>.active>a{
+	color: #ff6b59 !important;
+}*/
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	background-color:transparent !important;
+}
+
+/* Serviços */
+
+.servicos{
+	margin-top: 60px;
+}
+
+.servicos i{
+	font-size: 50px;
+	text-align: center;
+	display: block;
+}
+
+.servicos h2{
+	text-align: center;
+}
+
+.servicos  p{
+	text-align: center;
+}
+
+/* Portfolio */
+.portfolio h2{
+	text-align: center;
+	margin-top: 60px;
+}
+
+.col-portfolio{
+	margin-top: 60px;
+}
+
+.thumb-box{
+	margin-top: 60px;
+	width: 100%;
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+
+.thumb-box > img{
+	width: 100%;
+	height: 200px;
+	display: block;
+}
+
+
+.thumb-box > figcaption {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+.descricao{
+	display: none;
+	font-size: 30px;
+	margin: 0 auto;
+	color: #fff;
+	display: block;
+}
+
+.thumb-box:hover > figcaption{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/*Nosso time*/
+
+.time{
+	padding: 60px;
+}
+
+.time h2{
+	text-align: center;
+}
+
+.img-box{
+	margin-top: 60px;
+	width: 100%;
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+
+.img-box > img{
+	width: 100%;
+	height: 200px;
+	display: block;
+}
+
+/* Contato */
+
+.contato h2{
+	margin-top: 60px;
+	margin-bottom: 60px;
+	text-align: center;
+}
+
+/*footer*/
+
+.direitos{
+	width: 100%;
+	background-color: #1b3846;
+	position: relative;
+}
+
+.direitos > h2{
+	color: #fff;
+	text-align: center;
+	padding: 15px;
+	margin: 0;
+}
+
+/*customs*/
+.container-custom{
+	padding: 0;
+}
+
+/*artigo*/
+
+.artigo h1 {
+	text-align: center;
+}
